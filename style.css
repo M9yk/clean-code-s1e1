@@ -39,13 +39,16 @@
   margin: 0;
   padding: 0px;
 }
-.main-page__li, .subtitle {
+.main-page__li, 
+.subtitle {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
-.main-page__add-edit-btn, .main-page__delete-btn {
+.main-page__add-edit-btn, 
+.main-page__delete-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -54,7 +57,8 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
- .main-page__add-edit-btn:hover, .main-page__delete-btn:hover {
+ .main-page__add-edit-btn:hover, 
+ .main-page__delete-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
