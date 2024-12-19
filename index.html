@@ -4,9 +4,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <div class="header">
-      <img src="./eisenhower-matrix.jpg">
+      <img class="main-page__img" src="./eisenhower-matrix.jpg">
       <a 
         class="header__more-info" 
         href="https://goal-life.com/page/method/matrix-eisenhower"
@@ -15,37 +15,37 @@
     </div>
     <div class="main-page">
       <p id="main-page__adding-task">
-        <label for="main-page__new-task">Add Item</label>
+        <label class="main-page__label" for="main-page__new-task">Add Item</label>
         <div class="main-page__new-task">
           <input id="main-page__new-task" class="main-page__new-task" type="text">
-          <button>Add</button>
+          <button class="main-page__add-edit-btn">Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
-      <ul id="main-page__incomplete-tasks">
-        <li>
+      <h3 class="subtitle">Todo</h3>
+      <ul id="main-page__incomplete-tasks" class="main-page__ul">
+        <li class="main-page__li">
           <input type="checkbox">
-          <label class="main-page__task">Pay Bills</label>
+          <label class="main-page__task main-page__label">Pay Bills</label>
           <input type="text" class="main-page__task">
-          <button class="main-page__edit-btn">Edit</button>
-          <button class="main-page__delete-btn"><img src="./remove.svg"></button>
+          <button class="main-page__add-edit-btn">Edit</button>
+          <button class="main-page__delete-btn"><img class="main-page__img" src="./remove.svg"></button>
         </li>
-        <li class="main-page__edit-mode">
+        <li class="main-page__edit-mode main-page__li">
           <input type="checkbox">
-          <label class="main-page__task">Go Shopping</label>
+          <label class="main-page__task main-page__label">Go Shopping</label>
           <input type="text" value="Go Shopping" class="main-page__task">
-          <button class="main-page__edit-btn">Save</button>
-          <button class="main-page__delete-btn"><img src="./remove.svg"></button>
+          <button class="main-page__add-edit-btn">Save</button>
+          <button class="main-page__delete-btn"><img class="main-page__img" src="./remove.svg"></button>
         </li>
       </ul>
-      <h3>Completed</h3>
-      <ul id="main-page__completed-tasks">
-        <li>
+      <h3 class="subtitle">Completed</h3>
+      <ul id="main-page__completed-tasks" class="main-page__ul">
+        <li class="main-page__li">
           <input type="checkbox" checked>
-          <label class="main-page__task">See the Doctor</label>
+          <label class="main-page__task main-page__label">See the Doctor</label>
           <input type="text" class="main-page__task">
-          <button class="main-page__edit-btn">Edit</button>
-          <button class="main-page__delete-btn"><img src="./remove.svg"></button>
+          <button class="main-page__add-edit-btn">Edit</button>
+          <button class="main-page__delete-btn"><img class="main-page__img" src="./remove.svg"></button>
         </li>
       </ul>
     </div>
